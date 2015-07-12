@@ -1,3 +1,9 @@
+# Site settings
+title: Nataniel Martin
+email: natmartin31@gmail.com
+description: "// Mobile Developer //"
+
+
 # Build settings
 
 markdown: kramdown
