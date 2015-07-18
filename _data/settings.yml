@@ -5,29 +5,33 @@ menu:
 - {name: Links, url: '#links'}
 
 skills:
-- {name: skill 1, level: 5}
-- {name: skill 2, level: 2}
-- {name: skill 3, level: 3}
-- {name: skill 4, level: 1}
-- {name: skill 5, level: 1}
+- {name: Objective-C, level: 100%}
+- {name: Javascript, level: 70%}
+- {name: HTML/CSS, level: 60%}
+- {name: Github, level: 90%}
+
 
 portfolio:
 - { title: "Quixmaster",
-	description: "Quixmaster is photo sharing game, share with friends and answer 4 responses in 10 secdons",
-	url: "http://textl.com",
-	img_url: "/assets/img/projectsIcons/quixmasterIcon.png" }
+	description: "Quixmaster is photo sharing game, share with friends and ans",
+	app_url: "https://geo.itunes.apple.com/us/app/quixmaster-challenge-your/id955856081?mt=8",
+	img_url: "/assets/img/projectsIcons/quixmasterIcon.png",
+	tags: [first project, blop, hello,first project, blop, hello,first project, blop, hello,first project, blop, hello] }
 
 - { title: "Homme Elegant",
 	description: "Help you find the best clothing shop around paris labeled homme elegant",
-	url: "http://textl.com",
-	img_url: "/assets/img/projectsIcons/hommeElegantIcon.png" }
+	app_url: "",
+	img_url: "/assets/img/projectsIcons/hommeElegantIcon.png",
+	tags: [yop, blop, hello] }
 
 - { title: "TiZR",
 	description: "Broacast to your friends the best live video around the world with tyour phone",
-	url: "https://geo.itunes.apple.com/fr/app/tizr/id989806924?mt=8",
-	img_url: "/assets/img/projectsIcons/tizhrIcon.png" }
+	app_url: "https://geo.itunes.apple.com/fr/app/tizr/id989806924?mt=8",
+	img_url: "/assets/img/projectsIcons/tizhrIcon.png",
+	tags: [yop, blop, hello] }
 
 - { title: "InCity",
 	description: "Be the green citizen in your city by reporting stuff in the street that can be fixed / cleaned",
-	url: "http://textl.com",
-	img_url: "/assets/img/projectsIcons/incityIcon.png" }
+	app_url: "",
+	img_url: "/assets/img/projectsIcons/incityIcon.png",
+	tags: [yop, blop, hello] }

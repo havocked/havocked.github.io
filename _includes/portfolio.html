@@ -3,10 +3,19 @@
 		<h3 id="portfolio">Portfolio</h3>
 		{% for item in site.data.settings.portfolio %}
 			<div class="portfolioItem">
-				<img src="{{item.img_url}}"></img>
-				<p class="title">{{ item.title }}</p>
-				<p class="description">{{ item.description }}</p>
-				<a href="{{ item.url }}">Go to the store !</a>
+				<img class="icon" src="{{item.img_url}}"></img>
+				<div class="text-block">
+					<p class="title">{{ item.title }}</p>
+					<p class="description">{{ item.description }}</p>
+					
+					{% for tag in item.tags %}
+						<span>{{tag}}</span>
+					{% endfor %}
+
+					<a href="{{ item.app_url }}">
+						<img src="/assets/img/appstore-grey.png"></img>
+					</a>
+				</div>
 			</div>
 		{% endfor %}
 	</div>

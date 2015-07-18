@@ -4,6 +4,9 @@
 		{% for item in site.data.settings.skills %}
 			<div class="skillItem">
 				<p>{{ item.name }}</p>
+				<div class="levelContainer">
+					<div class="level" style="width:{{ item.level }}"></div>
+				</div>
 			</div>
 		{% endfor %}
 	</div>
