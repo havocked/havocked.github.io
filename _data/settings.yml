@@ -24,7 +24,7 @@ portfolio:
 
 - { title: "TiZR",
 	description: "Broacast to your friends the best live video around the world with tyour phone",
-	url: "http://textl.com",
+	url: "https://geo.itunes.apple.com/fr/app/tizr/id989806924?mt=8",
 	img_url: "/assets/img/projectsIcons/tizhrIcon.png" }
 
 - { title: "InCity",
