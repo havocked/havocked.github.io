@@ -14,3 +14,8 @@ port: 3000
 sass:
   sass_dir: assets/css
   style: :nested
+
+
+# Portfolio collection to handle easely my past and futur work
+collections:
+- portfolio

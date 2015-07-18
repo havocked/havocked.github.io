@@ -1,0 +1,13 @@
+<section>
+	<div class="portfolioContainer">
+		<h3 id="portfolio">Portfolio</h3>
+		{% for item in site.data.settings.portfolio %}
+			<div class="portfolioItem">
+				<img src="{{item.img_url}}"></img>
+				<p class="title">{{ item.title }}</p>
+				<p class="description">{{ item.description }}</p>
+				<a href="{{ item.url }}">Go to the store !</a>
+			</div>
+		{% endfor %}
+	</div>
+</section>

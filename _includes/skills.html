@@ -1,0 +1,10 @@
+<section>
+	<div class="skillsContainer">
+		<h3 id="skills">Skills</h3>
+		{% for item in site.data.settings.skills %}
+			<div class="skillItem">
+				<p>{{ item.name }}</p>
+			</div>
+		{% endfor %}
+	</div>
+</section>

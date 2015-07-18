@@ -1,9 +1,8 @@
 <header>
 	<nav>
-		<a href="">About Me</a>
-		<a href="">Portfolio</a>
-		<a href="">Links</a>
-		<a href="">Contact</a>
+		{% for item in site.data.settings.menu %}
+		<a href="{{ item.url }}">{{ item.name }}</a>
+		{% endfor %}
 	</nav>
 	<h1>{{site.title}}</h1>
 	<p class="kicker">{{site.description}}</p>
