@@ -12,26 +12,40 @@ skills:
 
 
 portfolio:
-- { title: "Quixmaster",
-	description: "Quixmaster is photo sharing game, share with friends and ans",
-	app_url: "https://geo.itunes.apple.com/us/app/quixmaster-challenge-your/id955856081?mt=8",
-	img_url: "/assets/img/projectsIcons/quixmasterIcon.png",
-	tags: [first project, blop, hello,first project, blop, hello,first project, blop, hello,first project, blop, hello] }
-
-- { title: "Homme Elegant",
-	description: "Help you find the best clothing shop around paris labeled homme elegant",
-	app_url: "",
-	img_url: "/assets/img/projectsIcons/hommeElegantIcon.png",
-	tags: [yop, blop, hello] }
 
 - { title: "TiZR",
-	description: "Broacast to your friends the best live video around the world with tyour phone",
+	description: "Livestream fun stuff to your friends all around the world",
 	app_url: "https://geo.itunes.apple.com/fr/app/tizr/id989806924?mt=8",
 	img_url: "/assets/img/projectsIcons/tizhrIcon.png",
-	tags: [yop, blop, hello] }
+	tags: [Wowza, streaming, rtmp, MPMovieController, custom animations, push notifications, Parse, Cloud Code] }
+
+- { title: "Homme Elegant",
+	description: "Find your nearest tailor shop and suit up !",
+	app_url: "",
+	img_url: "/assets/img/projectsIcons/hommeElegantIcon.png",
+	tags: [Custom server] }
 
 - { title: "InCity",
-	description: "Be the green citizen in your city by reporting stuff in the street that can be fixed / cleaned",
+	description: "Be the super hero of modern times, report broken stuff to your local town",
 	app_url: "",
 	img_url: "/assets/img/projectsIcons/incityIcon.png",
-	tags: [yop, blop, hello] }
+	tags: [Google maps, fixmystreet API] }
+
+- { title: "Quixmaster",
+	description: "Test your friends by creating your own quizz with a picture",
+	app_url: "https://geo.itunes.apple.com/us/app/quixmaster-challenge-your/id955856081?mt=8",
+	img_url: "/assets/img/projectsIcons/quixmasterIcon.png",
+	tags: [first project, Parse] }
+
+links:
+- { url: "https://github.com/havocked",
+	title: "Github",
+	icon_url: "/assets/img/linksIcons/github.png"}
+
+- { url: "http://stackoverflow.com/users/1095988/mindhavok",
+	title: "stackoverflow",
+	icon_url: "/assets/img/linksIcons/stackoverflow.png"}
+
+- { url: "https://www.linkedin.com/in/natanielmartin",
+	title: "linkedin",
+	icon_url: "/assets/img/linksIcons/linkedin.png"}

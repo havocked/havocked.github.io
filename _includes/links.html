@@ -1,6 +1,14 @@
 <section>
 	<div class="linksContainer">
 		<h3 id="links">Links</h3>
-		<p>This place is my links for my skill</p>
+		<div class="linksContainer">
+			{% for item in site.data.settings.links %}
+				<div class="link">
+					<a href="{{ item.url }}">
+						<img src="{{ item.icon_url }}"></img>
+					</a>
+				</div>
+			{% endfor %}
+		</div>
 	</div>
 </section>
