@@ -21,7 +21,7 @@ portfolio:
 
 - { title: "Homme Elegant",
 	description: "Find your nearest tailor shop and suit up !",
-	app_url: "",
+	app_url: "https://geo.itunes.apple.com/fr/app/elegant-lapplication-faite/id1019533987?mt=8",
 	img_url: "/assets/img/projectsIcons/hommeElegantIcon.png",
 	tags: [Custom server] }
 
