@@ -27,7 +27,7 @@ portfolio:
 
 - { title: "InCity",
 	description: "Be the super hero of modern times, report broken stuff to your local town",
-	app_url: "",
+	app_url: "https://geo.itunes.apple.com/fr/app/incity-lapplication-citoyenne/id1011815288",
 	img_url: "/assets/img/projectsIcons/incityIcon.png",
 	tags: [Google maps, fixmystreet API] }
 
